@@ -39,7 +39,7 @@ function All_In_One({ children }) {
 
       <Date_And_Time.Provider
         value={{
-          day: dateAndTime.getDay().toString().padStart(2,0),
+          day: (dateAndTime.getDay()+1).toString().padStart(2,0),
           hour: dateAndTime.getHours().toString().padStart(2,0),
           minute:dateAndTime.getMinutes().toString().padStart(2,0),
           second: dateAndTime.getSeconds().toString().padStart(2,0),
