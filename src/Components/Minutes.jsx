@@ -7,7 +7,7 @@ function Minutes() {
     <>
      <div className="box box3">
         <div className={`time minutes ${flag2 && "rotate"} `}>{minute}</div>
-        <div className="cap cap3">Minutes</div>
+        <div className="cap cap3">Minute</div>
       </div>
     </>
   );
