@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vishwajeet81.github.io/Oproject-1-bharat-clock-ui",
+  "homepage": "https://vishwajeet81.github.io/oproject-1-bharat-clock-ui",
 
   "scripts": {
     "dev": "vite",
